@@ -1,0 +1,444 @@
+{
+  "LHCBuilding": {
+    "1682274600": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682278200": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    },
+    "1682281800": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682285400": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    },
+    "1682289000": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682292600": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    },
+    "1682296200": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682299800": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    },
+    "1682303400": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682307000": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    },
+    "1682310600": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682314200": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    },
+    "1682317800": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682321400": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    },
+    "1682325000": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682328600": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    },
+    "1682332200": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682335800": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    },
+    "1682339400": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682343000": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    },
+    "1682346600": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682350200": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    },
+    "1682353800": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682357400": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    }
+  },
+  "MainBuilding": {
+    "1682274600": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682278200": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    },
+    "1682281800": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682285400": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    },
+    "1682289000": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682292600": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    },
+    "1682296200": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682299800": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    },
+    "1682303400": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682307000": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    },
+    "1682310600": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682314200": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    },
+    "1682317800": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682321400": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    },
+    "1682325000": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682328600": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    },
+    "1682332200": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682335800": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    },
+    "1682339400": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682343000": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    },
+    "1682346600": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682350200": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    },
+    "1682353800": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682357400": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    }
+  },
+  "SoECE": {
+    "1682274600": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682278200": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    },
+    "1682281800": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682285400": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    },
+    "1682289000": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682292600": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    },
+    "1682296200": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682299800": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    },
+    "1682303400": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682307000": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    },
+    "1682310600": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682314200": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    },
+    "1682317800": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682321400": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    },
+    "1682325000": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682328600": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    },
+    "1682332200": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682335800": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    },
+    "1682339400": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682343000": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    },
+    "1682346600": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682350200": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    },
+    "1682353800": {
+      "Gas": 700,
+      "Humidity": 50,
+      "Pressure": 400,
+      "Temperature": 35
+    },
+    "1682357400": {
+      "Gas": 760,
+      "Humidity": 55,
+      "Pressure": 450,
+      "Temperature": 32
+    }
+  },
+  "sensor":{
+    "humidity": 55.1,
+    "temperature": 33.4
+  }
+}

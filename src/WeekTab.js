@@ -2,91 +2,106 @@ import React from 'react';
 import Card from './Card';
 import BottomCards from './BottomCards';
 
-const WeekTab = ({ selectedCard, weeklyData }) => {
+const WeekTab = ({ selectedCard, weeklyData, Temp, Humid, Pressure, Gas }) => {
     return (
         <>
     <div className="week-tabs">
         <Card
             title={selectedCard}
-            temp="24"
-            humidity="55"
-            aqi="84"
-            rain="Yes"
+            temp={Temp}
+            humidity={Humid}
+            pressure={Pressure}
+            gas={Gas}
         />
         <div className="weekly-data">
-            <div>Monday: {weeklyData.monday}</div>
-            <div>Tuesday: {weeklyData.tuesday}</div>
-            <div>Wednesday: {weeklyData.wednesday}</div>
-            <div>Thursday: {weeklyData.thursday}</div>
-            <div>Friday: {weeklyData.friday}</div>
-            <div>Saturday: {weeklyData.saturday}</div>
-            <div>Sunday: {weeklyData.sunday}</div>
+            <table>
+                <thead>
+                    <tr>
+                    <th>Day</th>
+                    <th>Temperature</th>
+                    <th>Humidity</th>
+                    <th>Pressure</th>
+                    <th>Gas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {Object.entries(weeklyData).map(([day, data]) => (
+                    <tr key={day}>
+                        <td>{day}</td>
+                        <td>{data.temperature}°C</td>
+                        <td>{data.humidity}%</td>
+                        <td>{data.pressure}Pa</td>
+                        <td>{data.gas}ppm</td>
+                    </tr>
+                    ))}
+                </tbody>
+            </table>
         </div>
     </div>
 
     <div className="scroll-container">
-    <div className="scroll-content">
-    <BottomCards 
-    temp={34}
-    humidity={40}
-    aqi={10}
-    />
-    <BottomCards 
-    temp={34}
-    humidity={40}
-    aqi={10}
-    />
-    <BottomCards 
-    temp={34}
-    humidity={40}
-    aqi={10}
-    />
-    <BottomCards 
-    temp={34}
-    humidity={40}
-    aqi={10}
-    />
-    <BottomCards 
-    temp={34}
-    humidity={40}
-    aqi={10}
-    />
-    <BottomCards 
-    temp={34}
-    humidity={40}
-    aqi={10}
-    />
-    <BottomCards 
-    temp={34}
-    humidity={40}
-    aqi={10}
-    />
-    <BottomCards 
-    temp={34}
-    humidity={40}
-    aqi={10}
-    />
-    <BottomCards 
-    temp={34}
-    humidity={40}
-    aqi={10}
-    />
-    <BottomCards 
-    temp={34}
-    humidity={40}
-    aqi={10}
-    />
-    <BottomCards 
-    temp={34}
-    humidity={40}
-    aqi={10}
-    />
-    <BottomCards 
-    temp={34}
-    humidity={40}
-    aqi={10}
-    />
-    </div>
+        <div className="scroll-content">
+            <BottomCards 
+            temp={34}
+            humidity={40}
+            aqi={10}
+            />
+            <BottomCards 
+            temp={34}
+            humidity={40}
+            aqi={10}
+            />
+            <BottomCards 
+            temp={34}
+            humidity={40}
+            aqi={10}
+            />
+            <BottomCards 
+            temp={34}
+            humidity={40}
+            aqi={10}
+            />
+            <BottomCards 
+            temp={34}
+            humidity={40}
+            aqi={10}
+            />
+            <BottomCards 
+            temp={34}
+            humidity={40}
+            aqi={10}
+            />
+            <BottomCards 
+            temp={34}
+            humidity={40}
+            aqi={10}
+            />
+            <BottomCards 
+            temp={34}
+            humidity={40}
+            aqi={10}
+            />
+            <BottomCards 
+            temp={34}
+            humidity={40}
+            aqi={10}
+            />
+            <BottomCards 
+            temp={34}
+            humidity={40}
+            aqi={10}
+            />
+            <BottomCards 
+            temp={34}
+            humidity={40}
+            aqi={10}
+            />
+            <BottomCards 
+            temp={34}
+            humidity={40}
+            aqi={10}
+            />
+        </div>
     </div>
 
     </>
