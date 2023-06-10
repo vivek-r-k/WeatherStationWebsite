@@ -5,7 +5,7 @@ import WeekTab from './WeekTab';
 import TenDaysTab from './TenDaysTab';
 import logo from './logo.png'
 
-import BackgroundImage from './images71.jpeg'
+import BackgroundImage from './pexels-andrew-beatson-3742711.jpg'
 
 import { getDatabase, ref, onValue} from "firebase/database";
 import { initializeApp } from 'firebase/app';
@@ -13,12 +13,13 @@ import { initializeApp } from 'firebase/app';
 function App() {
   // Firebase
   const firebaseConfig = {
-    apiKey: "AIzaSyBFj7xmvEcq1hvDVGwjQZxgUNOI5JDn0XY",
-    authDomain: "weatherstation-85a86.firebaseapp.com",
-    projectId: "weatherstation-85a86",
-    storageBucket: "weatherstation-85a86.appspot.com",
-    messagingSenderId: "815759306943",
-    appId: "1:815759306943:web:269a9d60f7719ef042160a"
+    apiKey: "AIzaSyAHlmd0M2RpO_1NvGZJjwT659Wg7R9SQqc",
+    authDomain: "onelasttest-928f0.firebaseapp.com",
+    databaseURL: "https://onelasttest-928f0-default-rtdb.firebaseio.com",
+    projectId: "onelasttest-928f0",
+    storageBucket: "onelasttest-928f0.appspot.com",
+    messagingSenderId: "237242907722",
+    appId: "1:237242907722:web:e4877bb17c560587d9bab3"
   };
   
   // Initialize Firebase
@@ -48,7 +49,7 @@ function App() {
       setTempValue1(tempValue1);
       setPressureValue1(pressureValue1);
       setGasValue1(gasValue1);
-
+      // console.log("latestKey: ", latestKey);
     });
 
     return () => unsubscribe();
@@ -118,25 +119,25 @@ function App() {
   const [activeTab, setActiveTab] = useState('Today');
   const [selectedCard, setSelectedCard] = useState('School of Electronics and Communication');
   const [weeklyData, setWeeklyData] = useState({
-    monday: { temperature: 25, humidity: 60, pressure: 1008, gas: 10 },
-    tuesday: { temperature: 23, humidity: 55, pressure: 1005, gas: 8 },
-    wednesday: { temperature: 26, humidity: 50, pressure: 1007, gas: 9 },
-    thursday: { temperature: 28, humidity: 45, pressure: 1009, gas: 11 },
-    friday: { temperature: 29, humidity: 40, pressure: 1006, gas: 12 },
-    saturday: { temperature: 27, humidity: 55, pressure: 1004, gas: 7 },
-    sunday: { temperature: 24, humidity: 65, pressure: 1002, gas: 6 }
+    Monday: { temperature: 25, humidity: 60, pressure: 1008, gas: 10 },
+    Tuesday: { temperature: 23, humidity: 55, pressure: 1005, gas: 8 },
+    Wednesday: { temperature: 26, humidity: 50, pressure: 1007, gas: 9 },
+    Thursday: { temperature: 28, humidity: 45, pressure: 1009, gas: 11 },
+    Friday: { temperature: 29, humidity: 40, pressure: 1006, gas: 12 },
+    Saturday: { temperature: 27, humidity: 55, pressure: 1004, gas: 7 },
+    Sunday: { temperature: 24, humidity: 65, pressure: 1002, gas: 6 }
   });
   const [tenDaysData, setTenDaysData] = useState({
-    day1: {date: 'Apr 30', temperature: 25, humidity: 60, pressure: 1008, gas: 10},
-    day2: {date: 'Apr 30', temperature: 25, humidity: 60, pressure: 1008, gas: 10},
-    day3: {date: 'Apr 30', temperature: 25, humidity: 60, pressure: 1008, gas: 10},
-    day4: {date: 'Apr 30', temperature: 25, humidity: 60, pressure: 1008, gas: 10},
-    day5: {date: 'Apr 30', temperature: 25, humidity: 60, pressure: 1008, gas: 10},
-    day6: {date: 'Apr 30', temperature: 25, humidity: 60, pressure: 1008, gas: 10},
-    day7: {date: 'Apr 30', temperature: 25, humidity: 60, pressure: 1008, gas: 10},
-    day8: {date: 'Apr 30', temperature: 25, humidity: 60, pressure: 1008, gas: 10},
-    day9: {date: 'Apr 30', temperature: 25, humidity: 60, pressure: 1008, gas: 10},
-    day10: {date: 'Apr 30', temperature: 25, humidity: 60, pressure: 1008, gas: 10}
+    day1: {date: 'Jun 10', temperature: 25, humidity: 60, pressure: 1008, gas: 10},
+    day2: {date: 'Jun 9', temperature: 25, humidity: 60, pressure: 1008, gas: 10},
+    day3: {date: 'Jun 8', temperature: 25, humidity: 60, pressure: 1008, gas: 10},
+    day4: {date: 'Jun 7', temperature: 25, humidity: 60, pressure: 1008, gas: 10},
+    day5: {date: 'Jun 6', temperature: 25, humidity: 60, pressure: 1008, gas: 10},
+    day6: {date: 'Jun 5', temperature: 25, humidity: 60, pressure: 1008, gas: 10},
+    day7: {date: 'Jun 4', temperature: 25, humidity: 60, pressure: 1008, gas: 10},
+    day8: {date: 'Jun 3', temperature: 25, humidity: 60, pressure: 1008, gas: 10},
+    day9: {date: 'Jun 2', temperature: 25, humidity: 60, pressure: 1008, gas: 10},
+    day10: {date: 'Jun 1', temperature: 25, humidity: 60, pressure: 1008, gas: 10}
   });
 
   const handleCardClick = (cardTitle) => {
@@ -168,13 +169,15 @@ function App() {
   const handleTabClick = (tabName) => {
     setActiveTab(tabName);
     setHumidityValue(humidityValue1)
-    setTempValue(tempValue1)
-    setPressureValue(pressureValue1)
-    setGasValue(gasValue1)
+      setTempValue(tempValue1)
+      setPressureValue(pressureValue1)
+      setGasValue(gasValue1)
   }
 
   return (
-    <div className="App" style={{backgroundImage: `url(${BackgroundImage})`, backgroundSize: 'cover',backgroundRepeat: 'no-repeat',}}>
+    <div className="App" 
+    style={{backgroundImage: `url(${BackgroundImage})`, backgroundSize: 'cover',backgroundRepeat: 'no-repeat',}}
+    >
     {/* <div className="App"> */}
       <header className="App-header">
         <img src={logo} alt="Logo" />
