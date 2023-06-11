@@ -32,7 +32,7 @@ const WeekTab = ({ selectedCard, weeklyData, Temp, Humid, Pressure, Gas, time })
         doc.text(selectedCard, doc.internal.pageSize.getWidth() / 2, 30, { align: 'center', underline: true, fontWeight: 'bold' });
         doc.setFontSize(14);
         doc.text('Week Report', doc.internal.pageSize.getWidth() / 2, 40, { align: 'center', underline: true, fontWeight: 'bold' });
-      
+    //   console.log();
         // Add the table to the PDF
         doc.autoTable({
           head: [columns.map((column) => column.header)],
