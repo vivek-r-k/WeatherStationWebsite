@@ -1,12 +1,13 @@
 import React from 'react';
 
-const BottomCards = ({ temp, humidity, aqi }) => {
+const BottomCards = ({ temp, humidity, pressure, aq, timeBottom }) => {
   return (
     <div className="scroll-item">
-        12:00 PM <br />
+        {timeBottom} <br />
         {temp}°C <br />
         {humidity}% <br />
-        {aqi} ppm<br />
+        {pressure} hPa<br />
+        {aq} ppm<br />
         </div>
     );
 };

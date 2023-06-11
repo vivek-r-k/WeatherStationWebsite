@@ -8,13 +8,13 @@ import 'firebase/database';
 
 const DownloadPdf = () => {
   const firebaseConfig = {
-    apiKey: "AIzaSyAHlmd0M2RpO_1NvGZJjwT659Wg7R9SQqc",
-    authDomain: "onelasttest-928f0.firebaseapp.com",
-    databaseURL: "https://onelasttest-928f0-default-rtdb.firebaseio.com",
-    projectId: "onelasttest-928f0",
-    storageBucket: "onelasttest-928f0.appspot.com",
-    messagingSenderId: "237242907722",
-    appId: "1:237242907722:web:e4877bb17c560587d9bab3"
+    apiKey: "AIzaSyAqDR3NJeLqOX6HK1Rv-2jkpigIBAQFZ2Q",
+    authDomain: "kletech-weather-station-bb2e2.firebaseapp.com",
+    databaseURL: "https://kletech-weather-station-bb2e2-default-rtdb.firebaseio.com",
+    projectId: "kletech-weather-station-bb2e2",
+    storageBucket: "kletech-weather-station-bb2e2.appspot.com",
+    messagingSenderId: "11409016606",
+    appId: "1:11409016606:web:68ef74cdb27fdc1a21eb0f"
   };
       
       // Initialize Firebase
