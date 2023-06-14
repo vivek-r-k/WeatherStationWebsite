@@ -193,10 +193,22 @@ function App() {
 
   const handleTabClick = (tabName) => {
     setActiveTab(tabName);
-    setHumidityValue(humidityValue1)
+    if (tabName === 'School of Electronics and Communication') {
+      setHumidityValue(humidityValue1)
       setTempValue(temperatureValue1)
       setPressureValue(pressure1)
       setGasValue(gas1)
+    } else if(tabName === 'Main Building') {
+      setHumidityValue(humidityValue3)
+      setTempValue(temperatureValue3)
+      setPressureValue(pressure3)
+      setGasValue(gas3)
+    } else if(tabName === 'LHC Building') {
+      setHumidityValue(humidityValue2)
+      setTempValue(temperatureValue2)
+      setPressureValue(pressure2)
+      setGasValue(gas2)
+    }
   }
   // console.log("Date: ", date);
 
